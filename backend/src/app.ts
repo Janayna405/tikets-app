@@ -7,7 +7,7 @@ class App{
     }
 
     listen(){
-        this.app.listen(3333, () => console.log('ggrgr'));
+        this.app.listen(3333, () => console.log('Server is running, Gloria!'));
     }
 }
 export{App}
